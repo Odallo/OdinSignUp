@@ -1,0 +1,14 @@
+body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-side {
+    width: 45%;
+    /* Add any additional styling for the left side */
+}
+
+.right-side {
+    width: 45%;
+    /* Add any additional styling for the right side */
+}
