@@ -1,33 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="signUp.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Signup Page</title>
+  <link rel="stylesheet" href="signUp.css">
 </head>
 <body>
-   <div class="left-side">
-
-   </div>
-   <div class="right-side">
-     <H1>This is not the real life online service. 
-        You know you neeed something like 
-        this in your life to help you realize your dreams.</H1>
-    <form id="signUpForm">
-        <label for="firstName">First Name:</label><br>
-        <input type="text" id="firstName" name="firstName" required><br>
-        <label for="lastName">Last Name:</label><br>
-        <input type="text" id="lastName" name="lastName" required><br>
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email" required><br>
-        <label for="password">Password:</label><br>
-        <input type="password" id="password" name="password" required><br>
-        <label for="confirmPassword">Confirm Password:</label><br>
-        <input type="password" id="confirmPassword" name="confirmPassword" required><br>
-        <button type="submit">Create Account</button>
-    </form>
-   </div> 
-
+  <div class="signup-container">
+    <div class="image-section">
+      <img src="pexels-sebastians-1276518.jpg" alt="Ferns" class="background-image">
+      <div class="logo">ODIN</div>
+    </div>
+    <div class="form-section">
+      <h2>This is not a real online service!</h2>
+      <p>You know you need something like this to realize your deepest dreams. Sign up <strong>now</strong> to get started.</p>
+      <form action="#" method="POST">
+        <h3>Let’s do this!</h3>
+        <div class="form-group">
+          <label for="first-name">First Name</label>
+          <input type="text" id="first-name" placeholder="First Name" required>
+        </div>
+        <div class="form-group">
+          <label for="last-name">Last Name</label>
+          <input type="text" id="last-name" placeholder="Last Name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Email" required>
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" placeholder="Phone Number">
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="Password" required>
+        </div>
+        <div class="form-group">
+          <label for="confirm-password">Confirm Password</label>
+          <input type="password" id="confirm-password" placeholder="Confirm Password" required>
+        </div>
+        <button type="submit" class="btn">Create Account</button>
+        <p>Already have an account? <a href="#">Log in</a></p>
+      </form>
+    </div>
+  </div>
 </body>
 </html>
