@@ -28,10 +28,22 @@ body {
     object-fit: cover;
 }
 
-.logo {
+.logo-container {
     position: absolute;
-    top: 20px;
-    left: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+}
+
+.logo-image {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.logo-text {
     font-size: 24px;
     font-weight: bold;
     color: #fff;
